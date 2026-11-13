@@ -1,0 +1,129 @@
+
+Name
+Schedule
+Suspend
+Concurrency policy
+Starting deadline seconds
+
+CronJob
+CJ
+cron-ur2-batch-amg-file-cron
+0 5 * * *	False	Replace	20	
+
+CronJob
+CJ
+cron-ur2-batch-aramis-datapreparation-cron
+30 0 1 * *	False	Replace	20	
+
+CronJob
+CJ
+cron-ur2-batch-aramis-import-cron
+0 1 6-7,20-21 * *	False	Replace	20	
+
+CronJob
+CJ
+cron-ur2-batch-clcolltype-file-cron
+50 4 * * *	False	Replace	20	
+
+CronJob
+CJ
+cron-ur2-batch-clean-nas-cron
+0 22 * * *	False	Replace	20	
+
+CronJob
+CJ
+cron-ur2-batch-cs0-file-cron
+20 5 * * *	False	Replace	20	
+
+CronJob
+CJ
+cron-ur2-batch-currencyrate-file-cron
+50 4 * * *	False	Replace	20	
+
+CronJob
+CJ
+cron-ur2-batch-driven-file-cron
+0 19 * * *	False	Replace	20	
+CronJob
+CJ
+cron-ur2-batch-ega-cron
+15 1 * * *	False	Replace	20	
+CronJob
+CJ
+cron-ur2-batch-fin-file-cron
+0 5 * * *	False	Replace	20	
+CronJob
+CJ
+cron-ur2-batch-fin-pul-file-cron
+0 5 * * *	False	Replace	20	
+CronJob
+CJ
+cron-ur2-batch-historical-cron
+45 23 * * *	False	Replace	20	
+CronJob
+CJ
+cron-ur2-batch-immosys-file-cron
+0 5 * * *	False	Replace	20	
+CronJob
+CJ
+cron-ur2-batch-murex-file-cron
+0 7 * * *	False	Replace	20	
+CronJob
+CJ
+cron-ur2-batch-plus-cron
+15 0 15-31 * *	False	Replace	20	
+CronJob
+CJ
+name: cron-ur2-batch-rating-ajg-file-cron
+schedule: 40 7,21 * * *	
+suspended: False	
+currency policy: Replace	
+starting deadline seconds:20	
+CronJob
+CJ
+cron-ur2-batch-rating-file-cron
+0 2 * * *	False	Replace	20	
+CronJob
+CJ
+cron-ur2-batch-tpc-cron
+0 1 * * *	False	Replace	20	
+CronJob
+CJ
+cron-ur2-redaba-archiving-status-cron
+0 20 * * *	False	Replace	20	
+CronJob
+CJ
+cron-ur2-redaba-deletion-status-cron
+0 20 * * *	False	Replace	20	
+CronJob
+CJ
+cron-ur2-redaba-esg-cron
+0 20 * * *	False	Replace	20	
+CronJob
+CJ
+cron-ur2-redaba-kpi-cron
+5 5 * * *	True	Replace	20	
+CronJob
+CJ
+cron-ur2-redaba-kpi-dscr-cron
+10 5 * * *	True	Replace	20	
+CronJob
+CJ
+cron-ur2-redaba-kpi-dy-cron
+15 5 * * *	True	Replace	20	
+CronJob
+CJ
+cron-ur2-redaba-kpi-icr-cron
+20 5 * * *	True	Replace	20	
+CronJob
+CJ
+cron-ur2-redaba-property-overview-cron
+00 6 * * *	False	Replace	20	
+CronJob
+CJ
+cron-ur2-redaba-synloan-cron
+0 20 * * *	False	Replace	20	
+CronJob
+CJ
+cron-ur2-redaba-update-status-cron
+0 6 * * *	False	Replace	20
